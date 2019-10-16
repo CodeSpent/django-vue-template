@@ -4,6 +4,9 @@ import os
 import dj_database_url
 from .dev import *
 
+print('PYTHONPATH: ', os.environ["PYTHONPATH"])
+print('BASE_DIR', BASE_DIR)
+
 ############
 # DATABASE #
 ############
